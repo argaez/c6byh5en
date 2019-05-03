@@ -9,3 +9,25 @@
 
 Product.create(name: "Producto 1", price: 19)
 Product.create(name: "Producto 2", price: 23)
+
+products = Product.create (
+
+[
+	{
+	"id":8,
+	"name":"Producto 1",
+	"price":"19.0",
+	"created_at":"2015-09-13T21:42:09.683Z",
+	"updated_at":"2015-09-18T20:56:45.937Z"},
+
+	{
+	"id": 9,
+	"name":"Producto 2",
+	"price":"23.0",
+	"created_at":"2015-09-18T20:56:22.422Z",
+	"updated_at":"2015-09-18T20:56:49.839Z"
+}
+
+]
+
+	)
